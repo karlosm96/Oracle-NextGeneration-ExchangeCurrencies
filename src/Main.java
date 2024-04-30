@@ -17,7 +17,7 @@ public class Main {
         boolean ignite = true;
         int inputOption;
         Scanner scanner = new Scanner(System.in);
-        String apiKey = "8c7562d498a2b36fc725c710";
+        String apiKey = "yourApiKey";
         Gson gson = new GsonBuilder()
                 .setFieldNamingPolicy(FieldNamingPolicy.IDENTITY)
                 .setPrettyPrinting()
