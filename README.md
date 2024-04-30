@@ -40,6 +40,10 @@ You can find the list of supported currencies [here](https://www.exchangerate-ap
 | COP    | Peso colombiano    | Colombia       |
 | USD    | Dólar estadounidense| Estados Unidos|
 
+### API Key
+
+You can obtain a free API key from [here](https://www.exchangerate-api.com/).
+
 ### Dependencies
 
 - Gson library for JSON processing.
