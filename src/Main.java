@@ -56,11 +56,11 @@ public class Main {
                     break;
                 case 1:
                     try{
-                        System.out.println("Porfavor ingrese la moneda que quiere cambiar:");
+                        System.out.println("Porfavor ingrese el codigo de la moneda que quiere cambiar:");
                         String baseCurrency = scanner.next();
                         System.out.println("Porfavor ingrese el monto que quiere cambiar:");
                         double amount = scanner.nextDouble();
-                        System.out.println("Porfavor ingrese la moneda a la cual quiere cambiar:");
+                        System.out.println("Porfavor ingrese el codigo la moneda a la cual quiere cambiar:");
                         String finalCurrency = scanner.next();
 
                         String fetchData = FetchAPI.fetchData(CreateExchangeRateURL.createURL(apiKey, baseCurrency));
